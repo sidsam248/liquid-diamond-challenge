@@ -3,11 +3,13 @@
 one:
   name: MyString
   weight: 1.5
-  price: 1.5
-  state: MyString
+  total_price: 1.5
+  price_per_unit: 1.5
+  state: Listed
 
 two:
   name: MyString
   weight: 1.5
-  price: 1.5
-  state: MyString
+  total_price: 1.5
+  price_per_unit: 1.5
+  state: Listed

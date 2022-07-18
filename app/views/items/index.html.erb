@@ -19,7 +19,7 @@
   </div>
 </div>
 
-<%= form_tag items_path, method: :get do %>
+<%= form_tag items_path, method: :get, :remote => true do %>
   <label>State: </label>
   <%= select_tag "state", options_for_select(["All", "listed", "delisted"], params[:state]) %>
   <%= submit_tag "Search" %>
